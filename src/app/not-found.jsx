@@ -1,10 +1,10 @@
 import Link from "next/link";
-import styles from "./notfound.module.css";
+import styles from "./notFound.module.css";
 
 export default function NotFound() {
     return (
         <div className={styles.container}>
-            <img src="/img/loadind.gif" width={200} height={200} priority className={styles.image} />
+            <img src="/img/loading.gif" width={200} height={200} className={styles.image} alt="Loading animation" />
 
             <div className={styles.text}>
                 <h1>404 - PÁGINA NÃO ENCONTRADA :(</h1>
