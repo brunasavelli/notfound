@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from "./page.module.css";
 
 export default function HomePage() {
   return (
-    <div>
+    <div className={styles.container}>
       <Link href="/sobre">
-        Sobre nós
+        <h1>Sobre nós</h1>
       </Link>
       <br/>
       <a
